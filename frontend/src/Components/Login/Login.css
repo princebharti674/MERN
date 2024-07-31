@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    width: 100vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.forget{
+    margin-top: 10px;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.forget a {
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+    padding-left: 10px;
+    justify-content: space-evenly;
+}
+
+.forget a:hover {
+    color: #0066ff;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form :nth-child(2){
+    margin-top: 5px;
+}
+
+.login-button {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+    padding: 15px;
+    background: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #33ccff;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 38vh;
+    }
+    .forget{
+        gap : 6.5rem;
+    }
+}
